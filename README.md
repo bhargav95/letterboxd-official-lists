@@ -58,3 +58,7 @@ Upload the ZIP from `dist/` to the [Chrome Web Store developer dashboard](https:
 
 - The extension reads Letterboxd's HTML. If Letterboxd changes its page layout, the extension can stop working.
 - If Letterboxd shows a security check, the panel shows **Could not load** with a link to the lists page.
+
+## License
+
+[MIT](LICENSE)

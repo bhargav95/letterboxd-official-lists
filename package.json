@@ -2,6 +2,7 @@
   "name": "official-lists-for-letterboxd",
   "private": true,
   "description": "Chrome extension that shows which Letterboxd official lists include a film.",
+  "license": "MIT",
   "type": "module",
   "engines": {
     "node": ">=22.2"
