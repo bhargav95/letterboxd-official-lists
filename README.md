@@ -2,6 +2,8 @@
 
 A Chrome extension that shows which [Letterboxd official lists](https://letterboxd.com/official/) include a film. The lists appear on the film page, below **Where to watch**.
 
+![The Official lists panel below Where to watch on a Letterboxd film page](docs/screenshot.png)
+
 Not affiliated with Letterboxd.
 
 ## Install
