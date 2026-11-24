@@ -11,7 +11,7 @@ Not affiliated with Letterboxd.
 1. Clone or download this repository.
 2. Open `chrome://extensions` and turn on **Developer mode**.
 3. Click **Load unpacked** and select the `extension/` folder.
-4. Open a film page, for example [Branded to Kill](https://letterboxd.com/film/branded-to-kill/).
+4. Open a film page, for example [The Odyssey](https://letterboxd.com/film/the-odyssey-2026/).
 
 After you change the code, click the reload icon on the extension card and refresh the film page.
 
