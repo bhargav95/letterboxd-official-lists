@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Letterboxd Official Lists",
+  "version": "1.0.0",
+  "description": "Shows which Letterboxd official lists include the film on its page.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://letterboxd.com/film/*"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+.lbol-panel {
+  margin-top: 12px;
+}
+
+.lbol-panel .title a {
+  color: inherit;
+}
+
+.lbol-body {
+  color: #678;
+  font-size: 0.75rem;
+  padding: 6px 10px 8px;
+  /* The left column does not scroll, so a long list scrolls inside the panel. */
+  max-height: 40vh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: #456 transparent;
+}
+
+.lbol-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lbol-list li {
+  padding: 5px 0;
+  border-top: 1px solid #456;
+  font-size: 0.8125rem;
+  line-height: 1.4;
+}
+
+.lbol-list li:first-child {
+  border-top: 0;
+}
+
+.lbol-list a {
+  color: #9ab;
+}
+
+.lbol-list a:hover {
+  color: #40bcf4;
+}
+
+.lbol-empty {
+  margin: 0;
+}
