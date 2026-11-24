@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Official Lists for Letterboxd – Options</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font:
+          14px/1.5 -apple-system,
+          BlinkMacSystemFont,
+          'Segoe UI',
+          Roboto,
+          sans-serif;
+      }
+      button {
+        font: inherit;
+      }
+      body {
+        margin: 16px;
+        min-width: 360px;
+      }
+      h1 {
+        font-size: 16px;
+        margin: 0 0 4px;
+      }
+      p {
+        margin: 0 0 12px;
+        opacity: 0.8;
+      }
+      textarea {
+        box-sizing: border-box;
+        width: 100%;
+        font: inherit;
+        padding: 6px 8px;
+      }
+      .actions {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Blocked phrases</h1>
+    <p>
+      Hide official lists whose titles contain one of these phrases. Enter one phrase per line.
+      Matching ignores case and starts at the beginning of a word.
+    </p>
+    <textarea id="phrases" rows="8" spellcheck="false" aria-label="Blocked phrases"></textarea>
+    <div class="actions">
+      <button id="save" type="button">Save</button>
+      <button id="reset" type="button">Restore defaults</button>
+      <span id="status" role="status"></span>
+    </div>
+    <script src="settings.js"></script>
+    <script src="options.js"></script>
+  </body>
+</html>

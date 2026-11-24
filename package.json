@@ -1,0 +1,27 @@
+{
+  "name": "official-lists-for-letterboxd",
+  "private": true,
+  "description": "Chrome extension that shows which Letterboxd official lists include a film.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.2"
+  },
+  "scripts": {
+    "lint": "eslint --max-warnings=0 .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check:manifest": "node scripts/check-manifest.mjs",
+    "check": "npm run lint && npm run format:check && npm run check:manifest",
+    "icons": "node scripts/make-icons.mjs",
+    "package": "node scripts/package.mjs",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.6.2",
+    "prettier": "^3.10.1"
+  }
+}
